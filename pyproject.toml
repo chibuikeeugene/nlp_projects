@@ -16,6 +16,7 @@ numpy = {version = "==1.26.4", python = ">=3.11,<3.13"}
 kagglehub = "^0.3.7"
 seaborn = "^0.13.2"
 langchain = "^0.3.18"
+transformers = "^4.49.0"
 
 
 [build-system]
