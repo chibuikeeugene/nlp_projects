@@ -1,6 +1,0 @@
-/.venv
-/nlp_env
-*.DS_Store
-.poetry.lock
-semantic_book_recommender_search_app/research/.env
-semantic_book_recommender_search_app/research/text_embed_dir
