@@ -13,7 +13,7 @@ def text_loader():
     """ return the vector embedding and the original dataframe """
 
     # adding large thumbnails for our books while handling books without thumbnail
-    books = pd.read_csv('./research/books_with_emotions.csv')
+    books = pd.read_csv('semantic_book_recommender_search_app/research/books_with_emotions.csv')
     books['large_thumbnail'] = books['thumbnail'] + '&fife=w800'
     books['large_thumbnail'] = np.where(books['thumbnail'].isna(), './research/cover_not_found.png', 
                                         books['large_thumbnail'])
